@@ -14,6 +14,8 @@
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/crearmaso', 'CartasController@infoCartastodo');
+
 
 Route::get('/paladin', 'CartasController@infoCartas');
 Route::get('/mago','CartasController@infoCartasmago' );
@@ -37,9 +39,10 @@ Route::get('/kft', 'CartasController@infoCartaskft');
 Route::get('/descripcionjuego', function () {
     return view('descripcionjuego');
 });
-Route::get('/crearmaso', function () {
+
+/*Route::get('/crearmaso', function () {
     return view('crearmaso');
-});
+});*/
 
 Route::get('/heroes', function () {
     return view('heroes');
@@ -55,7 +58,9 @@ Route::get('/descripcioninicial', function () {
     return view('descripcioninicial');
 });
 
-
+Route::get('/expansiones', function () {
+    return view('expansiones');
+});
 
 
 Route::get('/grafica', function () {

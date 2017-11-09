@@ -9,9 +9,9 @@
 <link href="fontawesome.css.css">
 
 </head>
-<body id="top">
+<body id="top"> 
 
-<div  class="bgded overlay" style="background-image:url('images/demo/heroes.jpg');">
+<div  class="bgded overlay" style="background-image:url('images/demo/ohm.jpg');">
   <div class="wrapper row2">
     <nav id="mainav" class="hoc clear" style="float:right;">
       <ul class="clear">
@@ -24,7 +24,8 @@
           
              <li><a href="/dorsos">dorsos</a></li>
              <li><a href="/heroes">Héroes</a></li>
-             
+                           <li><a href="/expansiones">Expansiones</a></li>
+
           </ul>
           </li>
         <li>Cartas Héroes
@@ -73,207 +74,50 @@
 
 
 
+<div class="wrapper row3">
+  <section class="hoc container clear">
+   
+        <br><h2 style="text-align: center;">Habilidades</h2></br>   
+    @if (count($cartas)>0)
+      <div class="group elements">
+    <?php $count=0;?>
+    @foreach ($cartas as $carta)
+          @if ($count>0)
+           <article class="one_quarter"><a href="#"><img src="{{asset($carta->imagen)}}" alt=""></a>
+              <div class="txtwrap">
+                <h4 class="heading">{{$carta->nombre}}</h4>
+                <p>CLASE: {{$carta->clase}}</p>
+                 <p>TIPO: {{$carta->tipo}}</p>
+                  <p>ATAQUE: {{$carta->ataque}}</p>
+                   <p>VIDA: {{$carta->vida}}</p>
+                </div>
+            </article>  
+            <?php $count=$count+1;?>
+            
+          @endif
+@if ($count==0)
+           <article class="one_quarter first"><a href="#"><img src="{{asset($carta->imagen)}}" alt=""></a>
+              <div class="txtwrap">
+                <h4 class="heading">{{$carta->nombre}}</h4>
+                <p>CLASE: {{$carta->clase}}</p>
+                 <p>TIPO: {{$carta->tipo}}</p>
+                  <p>ATAQUE: {{$carta->ataque}}</p>
+                   <p>VIDA: {{$carta->vida}}</p>
+                </div>
+            </article>  
+           <?php $count=$count+1; ?>
+        @endif
+@if($count>3)
+      <?php $count=0;?>
 
-<div class="wrapper bgded" style="background-color: white">
+            @endif
+      @endforeach 
+        </div>
+      @endif
 
-
-  <main class="hoc container clear">
-    
-            <h2 style="text-align: center">Tipo de heroes</h2>
-
-   </main>
-  
+   </section>
 </div>
 
-
-
-
-<div class="wrapper bgded" style="background-image:url('images/heroes/uther.jpeg');">
-  <div class="hoc split clear">
-    <section>
-      <div class="sectiontitle">
-      <h6 class="heading font-x3">Paladin - Uther:</h6>
-      </div>
-      <div class="group">
-        <article>
-          <p> Es una mezcla entre un sanador y tanque, es capaz de curar, usar armas o hechizos para ganar la partida. 
-</p>                    <footer><a class="btn" href="/paladin">Conocer &raquo;</a></footer>
-
-        </article>
-      </div>
-    </section>
-  </div>
-</div>
-
-
-<div class="wrapper bgded" style="background-image:url('images/heroes/jaina.jpeg');">
-  <div class="hoc splitl clear">
-
-    <section>
-      <div class="sectiontitle">
-        <h6 class="heading font-x3">Mago - Jaina: </h6>
-      </div>
-      
-        <article>       
-        <p>
-Capaz de usar multitud de hechizos para destruir a sus enemigos y con gran capacidad de control,consiguiendo congelar y modificar el ritmo de la partida a su antojo. 
-                    <footer><a class="btn" href="/mago">Conocer &raquo;</a></footer>
-
-</p>
-</article>
-         </section>
-    
-    </div> 
-  </div>
-
-
-
-
-<div class="wrapper bgded" style="background-image:url('images/heroes/guldan.jpeg');">
-  <div class="hoc split clear">
-    <section>
-      <div class="sectiontitle">
-      <h6 class="heading font-x3">Brujo - Gul' dan: </h6>
-      </div>
-      <div class="group">
-        <article>
-          <p>
-Es un héroe agresivo que utiliza su propio hechizo para sus combos y tiene un poder suficiente cómo para destruir práticamente cualquier criatura enemiga. 
-</p>
-                    <footer><a class="btn" href="/brujo">Conocer &raquo;</a></footer>
-
-        </article>
-      </div>
-    </section>
-  </div>
-</div>
-
-
-
-
-
-<div class="wrapper bgded" style="background-image:url('images/heroes/malfurion.jpeg');">
-  <div class="hoc splitl clear">
-    <section>
-      <div class="sectiontitle">
-        <h6 class="heading font-x3">Druida - Malfurion:</h6>
-      </div>
-      <div class="group"  >
-      <article>
-        <p>
- Es la única clase del juego capaz de incrementar su capacidad de maná,tiene un estilo mixto y se puede jugar de manera ofensiva u ofensiva. 
-</p>
-                    <footer><a class="btn" href="/druida">Conocer &raquo;</a></footer>
-
-      </article>
-      </div>    
-    </section>
-  </div>
-</div>
-
-
-
-<div class="wrapper bgded" style="background-image:url('images/heroes/garrosh.jpeg');">
-  <div class="hoc split clear">
-    <section>
-      <div class="sectiontitle">
-      <h6 class="heading font-x3">Guerrero - Garrosh:</h6>
-      </div>
-      <div class="group">
-        <article>
-          <p> Normalmente tiene un estilo de juego agresivo con minions con carga(atacan nada más invocarse a diferencia de los minions normales) o defensivamente con minions con taunt,para finalizar también puede ser usado con armas. </p>
-                    <footer><a class="btn" href="/guerrero">Conocer &raquo;</a></footer>
-
-        </article>
-      </div>
-    </section>
-  </div>
-</div>
-
-
-
-
-
-
-
-<div class="wrapper bgded" style="background-image:url('images/heroes/alduin.jpeg');">
-  <div class="hoc splitl clear">
-    <section>
-      <div class="sectiontitle">
-        <h6 class="heading font-x3">Sacerdote - Anduin:</h6>
-      </div>
-      <div class="group"  >
-      <article>
-        <p>
- Héroe de soporte típico en cualquier juego de rol,su hechizo de curar minions o a él mismo,su principal ventaja es la capacidad de incrementar las estadísiticas de sus minions y el control de los minions enemigos.
-
-</p>
-                    <footer><a class="btn" href="/sacerdote">Conocer &raquo;</a></footer>
-
-      </article>   
-      </div>    
-    </section>
-  </div>
-</div>
-
-<div class="wrapper bgded" style="background-image:url('images/heroes/thral.jpeg');">
-  <div class="hoc split clear">
-    <section>
-      <div class="sectiontitle">
-      <h6 class="heading font-x3">Chamán - Thrall:  </h6>
-      </div>
-      <div class="group">
-        <article>
-          <p>
-
-Un héroe con un estilo de juego muy adaptable que puede jugarse agresivo o defensivo,usando hechizos,curando minions o incluso con armas. 
-
- </p>
-                                <footer><a class="btn" href="/chaman">Conocer &raquo;</a></footer>
-
-  </article>
-      </div>
-    </section>
-  </div>
-</div>
-
-
-<div class="wrapper bgded" style="background-image:url('images/heroes/valeera.jpeg');">
-  <div class="hoc splitl clear">
-    <section>
-      <div class="sectiontitle">
-        <h6 class="heading font-x3">Pícaro - Valeera:</h6>
-      </div>
-      <div class="group"  >
-      <article>      
-        <p>
- Héroe que suele usarse con combos mortíferos de armas para destruir a los enemigos. </p>
-                            <footer><a class="btn" href="/picaro">Conocer &raquo;</a></footer>
-
-      </article>
-      </div>    
-    </section>
-  </div>
-</div>
-
-
-<div class="wrapper bgded" style="background-image:url('images/heroes/rexxar.jpeg');">
-  <div class="hoc split clear">
-    <section>
-      <div class="sectiontitle">
-      <h6 class="heading font-x3">Cazador - Rexxar: </h6>
-      </div>
-      <div class="group">
-        <article>
-          <p> 
-Usa una gran variedad de secretos para contrarrestar los movimientos del rival,también es capaz de usar un poderoso combo y destruir al rival en pocos turnos. </p>
-                              <footer><a class="btn" href="/cazador">Conocer &raquo;</a></footer>
-
-        </article>
-      </div>
-    </section>
-  </div>
-</div>
 
 
 

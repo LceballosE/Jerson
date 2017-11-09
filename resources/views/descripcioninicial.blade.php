@@ -25,6 +25,7 @@
           
              <li><a href="/dorsos">dorsos</a></li>
              <li><a href="/heroes">Héroes</a></li>
+              <li><a href="/expansiones">Expansiones</a></li>
              
           </ul>
           </li>
@@ -129,6 +130,16 @@
         </div>
       </div>
 
+<div class="one_half first" >
+        <div style="background-color: gray; opacity: 0.9; padding: 40px; border-radius: 10px;margin-top: 20px" class="jumbotron">
+          <h6 class="heading font-x3" style="text-align: center" >Expansiones</h6>
+          <p style="text-align: justify;">Lucha para abrirte camino hasta tu objetivo. Haz frente a los líderes más aterradores en mundos completamente diferentes.</p>
+                    <footer><a class="btn" href="/expansiones">Conocer &raquo;</a></footer>
+
+        </div>
+      </div>
+            <div class="one_half"><a href="#"><img src="images/demo/no.jpg" style="border-radius: 50px;margin-top: 20px;height: 270px"></a></div>
+
    </main>
   
 </div>
@@ -150,6 +161,7 @@
 <script src="js/jquery.backtotop.js"></script>
 <script src="js/jquery.mobilemenu.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
+
 </body>
 </html>
 

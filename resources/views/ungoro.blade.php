@@ -22,7 +22,8 @@
           
              <li><a href="/dorsos">dorsos</a></li>
              <li><a href="/heroes">Héroes</a></li>
-             
+                           <li><a href="/expansiones">Expansiones</a></li>
+
           </ul>
           </li>
         <li>Cartas Héroes
@@ -59,9 +60,9 @@
   </div>
   <div id="pageintro" class="hoc clear"></div>
   <div class="jumbotron" style="background-color: black; opacity: 0.6;border-radius: 20px;padding: 30px;margin: 20px" >
-    <h6 class="heading font-x3" style="text-align: center;">Black Mountain</h6>
+    <h6 class="heading font-x3" style="text-align: center;">Bosques y dinosaurios</h6>
           <p style="text-align: center;" > Encuentra Todo lo que necesitas para ser el mejor.</p>
-          <p style="text-align: center"> Conoce toda la información básica que necesitas y Crea el MAZO perfecto para ti.</p>
+          <p style="text-align: center"> En un mundo tan extraño y grande como sus criaturas</p>
 </div>
 </div>
 
