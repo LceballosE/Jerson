@@ -1,0 +1,1 @@
+<html><head>    <meta charset="UTF-8">    <title>Acme</title></head><body>    @yield('content')    @section('navbar')		</body></html>
