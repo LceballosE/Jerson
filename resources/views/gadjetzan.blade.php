@@ -8,6 +8,9 @@
 </head>
 <body id="top">
 
+
+<div  class="bgded overlay" style="background-image:url('images/expanciones/gadgetzan.jpg');">
+
 <div class="wrapper row2">
     <nav id="mainav" class="hoc clear" style="float:right;">
       <ul class="clear">
@@ -20,7 +23,7 @@
           
              <li><a href="/dorsos">dorsos</a></li>
              <li><a href="/heroes">Héroes</a></li>
-                           <li><a href="/expansiones">Expansiones</a></li>
+              <li><a href="/expansiones">Expansiones</a></li>
 
           </ul>
           </li>
@@ -57,6 +60,7 @@
         </ul>
     </nav>
   </div>
+  
   <div id="pageintro" class="hoc clear"></div>
   <div class="jumbotron" style="background-color: black; opacity: 0.6;border-radius: 20px;padding: 30px;margin: 20px" >
     <h6 class="heading font-x3" style="text-align: center;">Callejones Oscuros</h6>
@@ -68,7 +72,7 @@
 <div class="wrapper row3">
   <section class="hoc container clear">
    
-        <br><h2>Habilidades</h2></br>   
+        <br><h2 style="text-align: center;">Habilidades</h2></br>   
     @if (count($cartas)>0)
       <div class="group elements">
     <?php $count=0;?>
