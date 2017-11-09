@@ -128,32 +128,32 @@
       <p>Encuentra toda la información que necesitas para ser el mejor</p>
     </div>
     <div class="group elements">
-      <article class="one_quarter first"><a href="#"><img src="images/demo/clases.png" alt=""></a>
+      <article class="one_quarter first"><img src="images/demo/clases.png" alt="">
         <div class="txtwrap">
           <h4 class="heading">Clases</h4>
           <p>Consectetuer phasellus dui sed libero in sed justo mauris lobortis suscipit [&hellip;]</p>
           <footer><a href="heroes">Conocer &raquo;</a></footer>
         </div>
       </article>
-      <article class="one_quarter"><a href="dorsos"><img src="images/demo/cartasdorsospequena.jpg" alt=""></a>
+      <article class="one_quarter"><img src="images/demo/cartasdorsospequena.jpg" alt="">
         <div class="txtwrap">
           <h4 class="heading">Dorsos</h4>
           <p>Risus tempus mollis donec condimentum fermentum dolor sed et erat phasellus [&hellip;]</p>
           <footer><a href="dorsos">Conocer &raquo;</a></footer>
         </div>
       </article>
-      <article class="one_quarter"><a href="#"><img src="images/demo/mazos.png" alt=""></a>
+      <article class="one_quarter"><img src="images/demo/mazos.png" alt="">
         <div class="txtwrap">
           <h4 class="heading">Mazos</h4>
           <p>Quis quam in ante condimentum blandit in tristique suspendisse potenti nunc [&hellip;]</p>
           <footer><a href="tiposmazos">Conocer &raquo;</a></footer>
         </div>
       </article>
-      <article class="one_quarter"><a href="#"><img src="images/demo/expand.png" alt=""></a>
+      <article class="one_quarter"><img src="images/demo/expand.png" alt="">
         <div class="txtwrap">
           <h4 class="heading">Expansiones</h4>
           <p>Quis quam in ante condimentum blandit in tristique suspendisse potenti nunc [&hellip;]</p>
-          <footer><a href="#">Conocer &raquo;</a></footer>
+          <footer><a href="expansiones">Conocer &raquo;</a></footer>
         </div>
       </article>
     </div>
