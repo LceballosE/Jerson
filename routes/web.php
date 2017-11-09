@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('home');
 });
-Route::get('/crearmaso', 'CartasController@infoCartastodo');
+Route::get('/crearmazo', 'CartasController@infoCartastodo');
 
 
 Route::get('/paladin', 'CartasController@infoCartas');
@@ -40,8 +40,8 @@ Route::get('/descripcionjuego', function () {
     return view('descripcionjuego');
 });
 
-/*Route::get('/crearmaso', function () {
-    return view('crearmaso');
+/*Route::get('/crearmazo', function () {
+    return view('crearmazo');
 });*/
 
 Route::get('/heroes', function () {

@@ -51,7 +51,7 @@
             <li><a href="/kft">KFT</a></li>
           </ul>
         </li>
-              <li><a href="crearmaso">Crear Maso</a></li>
+              <li><a href="crearmazo">Crear Maso</a></li>
 
        
           

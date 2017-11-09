@@ -54,7 +54,7 @@
             <li><a href="/kft">KFT</a></li>
           </ul>
         </li>
-              <li><a href="crearmaso">Crear Maso</a></li>
+              <li><a href="crearmazo">Crear Maso</a></li>
 
        
           
@@ -81,12 +81,12 @@
         <div style="background-color: gray; opacity: 0.9; padding: 40px; border-radius: 10px;" class="jumbotron">
           <h6 class="heading font-x3" style="text-align: center" >Información Básica</h6>
           <p style="text-align: justify;">Conoce todo lo que necesitas para entender el juego y empezar una nueva aventura. El maná, poder de ataque, la vida y la armadura son la base ensencial del juego. </p>
-                    <footer><a class="btn" href="/descripcionbasica">Conocer &raquo;</a></footer>
+                    <footer><a class="btn" href="/descripcionjuego">Conocer &raquo;</a></footer>
 
         </div>
       </div>
       
-      <div class="one_half"><a href="#"><img src="images/demo/bruja.jpg" style="border-radius: 50px;margin-top: 10px;height: 300px"></a></div>
+      <div class="one_half"><img src="images/demo/bruja.jpg" style="border-radius: 50px;margin-top: 10px;height: 300px"></div>
     
       
       
@@ -113,12 +113,12 @@
         </div>
       </div>
       
-      <div class="one_half"><a href="#"><img src="images/demo/uno.jpg" style="border-radius: 50px;margin-top: 20px;height: 270px"></a></div>
+      <div class="one_half"><img src="images/demo/uno.jpg" style="border-radius: 50px;margin-top: 20px;height: 270px"></div>
     
       
       
   
-            <div  style="border-radius: 20px; margin-top: 25px" class="one_half first"><a href="#"><img src="images/demo/heroes.jpg" style="border-radius: 50px"></a></div>
+            <div  style="border-radius: 20px; margin-top: 25px" class="one_half first"><img src="images/demo/heroes.jpg" style="border-radius: 50px"></div>
 
       
       <div class="one_half">
@@ -126,7 +126,7 @@
 
           <h6 class="heading font-x3" style="text-align: center">Héroes</h6>
           <p>Conoce las posibilidades que cada hérote puede ofrecerte para ser el mejor</p>
-                    <footer><a class="btn" href="/tiposmazos">Conocer &raquo;</a></footer>
+                    <footer><a class="btn" href="/heroes">Conocer &raquo;</a></footer>
 
         </div>
       </div>
@@ -139,7 +139,7 @@
 
         </div>
       </div>
-            <div class="one_half"><a href="#"><img src="images/demo/no.jpg" style="border-radius: 50px;margin-top: 20px;height: 270px"></a></div>
+            <div class="one_half"><img src="images/demo/no.jpg" style="border-radius: 50px;margin-top: 20px;height: 270px"></div>
 
    </main>
   

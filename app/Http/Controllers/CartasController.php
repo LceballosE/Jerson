@@ -32,7 +32,7 @@ public function infoCartastodo()
 		$cartas = Carta::where('clase',2)->get();
 	
 
-		return view('crearmaso') -> with ('cartas',$cartas);
+		return view('crearmazo') -> with ('cartas',$cartas);
 
 
 	}

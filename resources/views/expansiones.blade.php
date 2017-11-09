@@ -53,7 +53,7 @@
             <li><a href="/kft">KFT</a></li>
           </ul>
         </li>
-              <li><a href="crearmaso">Crear Maso</a></li>
+              <li><a href="crearmazo">Crear Maso</a></li>
 
        
           
@@ -164,7 +164,7 @@ Karazhan, durante mucho tiempo un potente nexo de energías Arcanas, está a pun
         <p>
  En la aventura de Montaña Roca Negra, te encontrarás en uno de los conflictos más intensos de todo Azeroth, la antigua enemistad entre Ragnaros, el señor del fuego elemental, y Nefarian, el poderoso dragón negro y líder actual del vuelo negro. Nefarian se llamaría a si mísmo el dueño de la Montaña Roca Negra, pero Ragnaros y sus sirvientes elementales han representado un obstáculo para el dragón por demasiado tiempo. En esta montaña no caben ambos. Antes de que le hagas un favor a Nefarian y enfrentes a Ragnaros, contempla: ¿Es genuino el apoyo de Nefarian, o eres simplemente otra pieza del juego en las maquinaciones de la vermis?
 </p>
-                    <footer><a class="btn" href="/blackmountaink">Conocer &raquo;</a></footer>
+                    <footer><a class="btn" href="/blackmountain">Conocer &raquo;</a></footer>
 
       </article>
       </div>    
