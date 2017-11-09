@@ -12,11 +12,22 @@
 <body id="top">
 
 <div  class="bgded overlay" style="background-image:url('images/demo/uno.jpg');">
-  <div class="wrapper row2">
+ <div class="wrapper row2">
     <nav id="mainav" class="hoc clear" style="float:right;">
       <ul class="clear">
         <li class="active"><a href="/">Home</a></li>
-        <li><a class="drop" href="#">Mazos</a>
+        
+         <li><a href="descripcioninicial">Información</a>
+         <ul> 
+          <li><a href="/descripcionjuego">Descripción Básica</a></li>
+          <li><a href="/tiposmazos">tipos mazos</a></li>
+          
+             <li><a href="/dorsos">dorsos</a></li>
+             <li><a href="/heroes">Héroes</a></li>
+             
+          </ul>
+          </li>
+        <li>Cartas Héroes
              <ul>
             <li><a href="/paladin">Paladin</a></li>
             <li><a href="/mago">Mago</a></li>
@@ -29,7 +40,8 @@
             <li><a href="/cazador">Cazador</a></li>
           </ul>
         </li>
-        <li><a class="drop" href="#">Expanciones</a>
+
+        <li>Expansiones
           <ul>
             <li><a href="/naxxramas">NaxxRamas</a></li>
             <li><a href="/blackmountain">Black Mountain</a></li>
@@ -40,16 +52,10 @@
             <li><a href="/kft">KFT</a></li>
           </ul>
         </li>
-        <li><a href="#">Crear Mazo</a>
-        <ul>
-           <li><a href="/descripcionheroe">Descripción Básica</a></li>
-             <li><a href="/dorsos">dorsos</a></li>
-             <li><a href="/tiposmazos">tipos mazos</a></li>
-             <li><a href="/#">otro</a></li>
-            
-        </ul>
-      </li>
-        <li><a href="#">                     </a></li>
+       
+       <li><a href="crearmaso">Crear Maso</a></li>
+          
+        <li><a href="">                     </a></li>
         </ul>
     </nav>
   </div>

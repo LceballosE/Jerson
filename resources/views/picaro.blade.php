@@ -10,14 +10,23 @@
 
 <!-- Top Background Image Wrapper -->
 <div class="bgded overlay" style="background-image:url('images/mazos/valeera.jpeg');">
-  <!-- ################################################################################################ -->
-  <div class="wrapper row2">
+<div class="wrapper row2">
     <nav id="mainav" class="hoc clear" style="float:right;">
-      <!-- ################################################################################################ -->
       <ul class="clear">
         <li class="active"><a href="/">Home</a></li>
-        <li><a class="drop" href="#">Mazos</a>
-            <ul>
+        
+         <li><a href="descripcioninicial">Información</a>
+         <ul> 
+          <li><a href="/descripcionjuego">Descripción Básica</a></li>
+          <li><a href="/tiposmazos">tipos mazos</a></li>
+          
+             <li><a href="/dorsos">dorsos</a></li>
+             <li><a href="/heroes">Héroes</a></li>
+             
+          </ul>
+          </li>
+        <li>Cartas Héroes
+             <ul>
             <li><a href="/paladin">Paladin</a></li>
             <li><a href="/mago">Mago</a></li>
             <li><a href="/brujo">Brujo</a></li>
@@ -29,7 +38,8 @@
             <li><a href="/cazador">Cazador</a></li>
           </ul>
         </li>
-        <li><a class="drop" href="#">Expanciones</a>
+
+        <li>Expansiones
           <ul>
             <li><a href="/naxxramas">NaxxRamas</a></li>
             <li><a href="/blackmountain">Black Mountain</a></li>
@@ -40,50 +50,39 @@
             <li><a href="/kft">KFT</a></li>
           </ul>
         </li>
-        <li><a href="#">Crear Mazo</a></li>
-        <li><a href="#">                     </a></li>
+       
+               <li><a href="crearmaso">Crear Maso </a></li>
+
+          
+        <li><a href="">                     </a></li>
         </ul>
-      <!-- ################################################################################################ -->
     </nav>
   </div>
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-
-    <!-- ################################################################################################ -->
-
 
   <main class="hoc container clear">
-    <!-- main body -->
-    <!-- ################################################################################################ -->
+  
     <div class="group">
       <div class="one_half first">
-
-        <h6 class="heading font-x3">Vigila tu espalda</h6>
-        <p>Ultricies vel vestibulum quis sodales nec sem aliquam non ligula sed dui purus blandit ut viverra at bibendum id urna duis est elit condimentum ac venenatis sed congue ac ipsum aliquam erat elit commodo non hendrerit id vehicula</p>
+         <div style="background:rgba(0,0,0,0.5);padding: 40px; border-radius: 20px;margin-top: 150px" class="jumbotron">
+        <h6 class="heading font-x2" style="text-align: center"></h6>
+        <p>una elfa de sangre. Su poder de héroe es "Maestría en dagas", que equipa una daga al héroe 1/2.</p>
+        
       </div>
-      <div class="one_half" >
-        <img src="images/mazos/picarohp.png"  align="right" >
+    </div>
 
+      <div class="one_half" style="text-align: center" >
+        <img src="images/mazos/picarohp.png" style="width:53%; height:auto"   >
       </div>
-
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
+      </div>
   </main>
-
-
-
-    <!-- ################################################################################################ -->
-
-  <!-- ################################################################################################ -->
 </div>
-<!-- End Top Background Image Wrapper -->
+
 
 
 <div class="wrapper row3">
   <section class="hoc container clear">
    
-        <br><h2>Habilidades</h2></br>   
+        <br><h2 style="text-align: center">Habilidades</h2></br>   
     @if (count($cartas)>0)
       <div class="group elements">
     <?php $count=0;?>

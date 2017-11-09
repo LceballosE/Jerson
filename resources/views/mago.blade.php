@@ -10,57 +10,77 @@
 
 <!-- ////////- -->
  <div class="bgded overlay" style="background-image:url('images/mazos/jaina.jpeg');">
-        <div class="wrapper row2">
-          <nav id="mainav" class="hoc clear" style="float:right;">
-            <ul class="clear">
-              <li class="active"><a href="/">Home</a></li>
-              <li><a class="drop" href="#">Mazos</a>
-                 <ul>
-                  <li><a href="/paladin">Paladin</a></li>
-                  <li><a href="/mago">Mago</a></li>
-                  <li><a href="/brujo">Brujo</a></li>
-                  <li><a href="/druida">Druida</a></li>
-                  <li><a href="/guerrero">Guerrero</a></li>
-                  <li><a href="/sacerdote">Sacerdote</a></li>
-                  <li><a href="/chaman">Chaman</a></li>
-                  <li><a href="/picaro">Pícaro</a></li>
-                  <li><a href="/cazador">Cazador</a></li>
-                </ul>
-              </li>
-              <li><a class="drop" href="#">Expanciones</a>
-                <ul>
-                  <li><a href="/naxxramas">NaxxRamas</a></li>
-                  <li><a href="/blackmountain">Black Mountain</a></li>
-                  <li><a href="/theoldgods">The Old Gods</a></li>
-                  <li><a href="/gadjetzan">Gadjetzan</a></li>
-                  <li><a href="/karazan">Karazan</a></li>
-                  <li><a href="/ungoro">Ungoro</a></li>
-                  <li><a href="/kft">KFT</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Crear Mazo</a></li>
-              <li><a href="#">                     </a></li>
-              </ul>
-          </nav>
-        </div>
+    <div class="wrapper row2">
+    <nav id="mainav" class="hoc clear" style="float:right;">
+      <ul class="clear">
+        <li class="active"><a href="/">Home</a></li>
+        
+         <li><a href="descripcioninicial">Información</a>
+         <ul> 
+          <li><a href="/descripcionjuego">Descripción Básica</a></li>
+          <li><a href="/tiposmazos">tipos mazos</a></li>
+          
+             <li><a href="/dorsos">dorsos</a></li>
+             <li><a href="/heroes">Héroes</a></li>
+             
+          </ul>
+          </li>
+        <li>Cartas Héroes
+             <ul>
+            <li><a href="/paladin">Paladin</a></li>
+            <li><a href="/mago">Mago</a></li>
+            <li><a href="/brujo">Brujo</a></li>
+            <li><a href="/druida">Druida</a></li>
+            <li><a href="/guerrero">Guerrero</a></li>
+            <li><a href="/sacerdote">Sacerdote</a></li>
+            <li><a href="/chaman">Chaman</a></li>
+            <li><a href="/picaro">Pícaro</a></li>
+            <li><a href="/cazador">Cazador</a></li>
+          </ul>
+        </li>
 
-    <main class="hoc container clear">
-      <div class="group">
-        <div class="one_half first">
-
-          <h6 class="heading font-x3">Mi magia te hara pedazos</h6>
-          <p>Ultricies vel vestibulum quis sodales nec sem aliquam non ligula sed dui purus blandit ut viverra at bibendum id urna duis est elit condimentum ac venenatis sed congue ac ipsum aliquam erat elit commodo non hendrerit id vehicula</p>
-        </div>
-        <div class="one_half" >
-          <img src="images/mazos/magehp.png"  align="right" >
-        </div>
-    </main>
+        <li>Expansiones
+          <ul>
+            <li><a href="/naxxramas">NaxxRamas</a></li>
+            <li><a href="/blackmountain">Black Mountain</a></li>
+            <li><a href="/theoldgods">The Old Gods</a></li>
+            <li><a href="/gadjetzan">Gadjetzan</a></li>
+            <li><a href="/karazan">Karazan</a></li>
+            <li><a href="/ungoro">Ungoro</a></li>
+            <li><a href="/kft">KFT</a></li>
+          </ul>
+        </li>
+       
+       <li><a href="crearmaso">Crear Maso</a></li>
+          
+        <li><a href="">                     </a></li>
+        </ul>
+    </nav>
   </div>
+
+  <main class="hoc container clear">
+  
+    <div class="group">
+      <div class="one_half first">
+         <div style="background:rgba(0,0,0,0.5);padding: 40px; border-radius: 20px;margin-top: 150px" class="jumbotron">
+        <h6 class="heading font-x2" style="text-align: center"></h6>
+        <p></p>
+        
+      </div>
+    </div>
+
+      <div class="one_half" style="text-align: center" >
+        <img src="images/mazos/paladinhp.png" style="width:53%; height:auto"   >
+      </div>
+      </div>
+  </main>
+</div>
+
 
 <!-- ////////- -->
         <div class="wrapper row3">
           <section class="hoc container clear">
-                <br><h2>Habilidades</h2></br>   
+                <br><h2 style="text-align: center;">Habilidades</h2></br>   
             @if (count($cartas)>0)
               <div class="group elements">
             <?php $count=0;?>

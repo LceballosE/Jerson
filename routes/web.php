@@ -37,7 +37,9 @@ Route::get('/kft', 'CartasController@infoCartaskft');
 Route::get('/descripcionjuego', function () {
     return view('descripcionjuego');
 });
-
+Route::get('/crearmaso', function () {
+    return view('crearmaso');
+});
 
 Route::get('/heroes', function () {
     return view('heroes');

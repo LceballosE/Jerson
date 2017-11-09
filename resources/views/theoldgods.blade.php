@@ -10,14 +10,23 @@
 
 <!-- Top Background Image Wrapper -->
 <div class="bgded overlay" style="background-image:url('images/expanciones/oldgods.jpg');">
-  <!-- ################################################################################################ -->
   <div class="wrapper row2">
     <nav id="mainav" class="hoc clear" style="float:right;">
-      <!-- ################################################################################################ -->
       <ul class="clear">
         <li class="active"><a href="/">Home</a></li>
-        <li><a class="drop" href="#">Mazos</a>
-           <ul>
+        
+         <li><a href="descripcioninicial">Información</a>
+         <ul> 
+          <li><a href="/descripcionjuego">Descripción Básica</a></li>
+          <li><a href="/tiposmazos">tipos mazos</a></li>
+          
+             <li><a href="/dorsos">dorsos</a></li>
+             <li><a href="/heroes">Héroes</a></li>
+             
+          </ul>
+          </li>
+        <li>Cartas Héroes
+             <ul>
             <li><a href="/paladin">Paladin</a></li>
             <li><a href="/mago">Mago</a></li>
             <li><a href="/brujo">Brujo</a></li>
@@ -29,7 +38,8 @@
             <li><a href="/cazador">Cazador</a></li>
           </ul>
         </li>
-        <li><a class="drop" href="#">Expanciones</a>
+
+        <li>Expansiones
           <ul>
             <li><a href="/naxxramas">NaxxRamas</a></li>
             <li><a href="/blackmountain">Black Mountain</a></li>
@@ -40,22 +50,21 @@
             <li><a href="/kft">KFT</a></li>
           </ul>
         </li>
-        <li><a href="#">Crear Mazo</a></li>
-        <li><a href="#">                     </a></li>
+       
+               <li><a href="crearmaso">Crear Maso </a></li>
+
+          
+        <li><a href="">                     </a></li>
         </ul>
-      <!-- ################################################################################################ -->
     </nav>
   </div>
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <div id="pageintro" class="hoc clear">
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-  </div>
-  <!-- ################################################################################################ -->
+  <div id="pageintro" class="hoc clear"></div>
+  <div class="jumbotron" style="background-color: black; opacity: 0.6;border-radius: 20px;padding: 30px;margin: 20px" >
+    <h6 class="heading font-x3" style="text-align: center;">Black Mountain</h6>
+          <p style="text-align: center;" > Encuentra Todo lo que necesitas para ser el mejor.</p>
+          <p style="text-align: center"> Conoce toda la información básica que necesitas y Crea el MAZO perfecto para ti.</p>
 </div>
-<!-- End Top Background Image Wrapper -->
+</div>
 
 <div class="wrapper row3">
   <section class="hoc container clear">
