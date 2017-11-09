@@ -11,7 +11,7 @@
 <!-- Top Background Image Wrapper -->
 <div  class="bgded overlay" style="background-image:url('images/expanciones/karazhan.jpg');">
   <!-- ################################################################################################ -->
-  <div class="wrapper row2">
+ <div class="wrapper row2">
     <nav id="mainav" class="hoc clear" style="float:right;">
       <ul class="clear">
         <li class="active"><a href="/">Home</a></li>
@@ -27,7 +27,7 @@
 
           </ul>
           </li>
-        <li>Cartas Héroes
+        <li><a href="heroes">Cartas Héroes</a>
              <ul>
             <li><a href="/paladin">Paladin</a></li>
             <li><a href="/mago">Mago</a></li>
@@ -41,7 +41,7 @@
           </ul>
         </li>
 
-        <li>Expansiones
+        <li><a href="expansiones">Expansiones</a>
           <ul>
             <li><a href="/naxxramas">NaxxRamas</a></li>
             <li><a href="/blackmountain">Black Mountain</a></li>
@@ -52,8 +52,9 @@
             <li><a href="/kft">KFT</a></li>
           </ul>
         </li>
+              <li><a href="crearmaso">Crear Maso</a></li>
+
        
-       <li><a href="crearmaso">Crear Maso</a></li>
           
         <li><a href="">                     </a></li>
         </ul>
