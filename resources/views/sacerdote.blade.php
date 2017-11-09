@@ -64,14 +64,14 @@
     <div class="group">
       <div class="one_half first">
          <div style="background:rgba(0,0,0,0.5);padding: 40px; border-radius: 20px;margin-top: 150px" class="jumbotron">
-        <h6 class="heading font-x2" style="text-align: center"></h6>
-        <p></p>
+        <h6 class="heading font-x2" style="text-align: center">La Luz me concederá la victoria</h6>
+        <p>Es el heredero al trono de Ventormenta. Su poder de héroe es la "Sanación inferior", la cual restaura 2 puntos de vida al objetivo elegido.</p>
         
       </div>
     </div>
 
       <div class="one_half" style="text-align: center" >
-        <img src="images/mazos/paladinhp.png" style="width:53%; height:auto"   >
+        <img src="images/mazos/sacerdotehp.png" style="width:53%; height:auto"   >
       </div>
       </div>
   </main>
@@ -82,7 +82,7 @@
 <div class="wrapper row3">
   <section class="hoc container clear">
    
-        <br><h2>Habilidades</h2></br>   
+        <br><h2 style="text-align: center;">Habilidades</h2></br>   
     @if (count($cartas)>0)
       <div class="group elements">
     <?php $count=0;?>

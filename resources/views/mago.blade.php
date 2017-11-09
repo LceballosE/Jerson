@@ -63,14 +63,14 @@
     <div class="group">
       <div class="one_half first">
          <div style="background:rgba(0,0,0,0.5);padding: 40px; border-radius: 20px;margin-top: 150px" class="jumbotron">
-        <h6 class="heading font-x2" style="text-align: center"></h6>
-        <p></p>
+        <h6 class="heading font-x2" style="text-align: center">La mágia es mi herramienta</h6>
+        <p>Una poderosa maga humana. Su poder de héroe es "Explosión de fuego", el cual inflige un punto de daño al objetivo elegido. Existe un segundo héroe llamado Medivh el guardián</p>
         
       </div>
     </div>
 
       <div class="one_half" style="text-align: center" >
-        <img src="images/mazos/paladinhp.png" style="width:53%; height:auto"   >
+        <img src="images/mazos/magehp.png" style="width:53%; height:auto"   >
       </div>
       </div>
   </main>

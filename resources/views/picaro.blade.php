@@ -64,8 +64,8 @@
     <div class="group">
       <div class="one_half first">
          <div style="background:rgba(0,0,0,0.5);padding: 40px; border-radius: 20px;margin-top: 150px" class="jumbotron">
-        <h6 class="heading font-x2" style="text-align: center"></h6>
-        <p>una elfa de sangre. Su poder de héroe es "Maestría en dagas", que equipa una daga al héroe 1/2.</p>
+        <h6 class="heading font-x2" style="text-align: center">Estoy detrás de ti</h6>
+        <p>Una elfa de sangre. Su poder de héroe es "Maestría en dagas", que equipa una daga al héroe 1/2.</p>
         
       </div>
     </div>

@@ -62,15 +62,15 @@
   
     <div class="group">
       <div class="one_half first">
-         <div style="background:rgba(0,0,0,0.5);padding: 40px; border-radius: 20px;margin-top: 150px" class="jumbotron">
-        <h6 class="heading font-x2" style="text-align: center"></h6>
-        <p></p>
+         <div style="background:rgba(0,0,0,0.5);padding: 40px; border-radius: 20px;margin-top: 100px" class="jumbotron">
+        <h6 class="heading font-x2" style="text-align: center">Los elementos te destruirán</h6>
+        <p>Su poder de héroe es "Llamada Totémica", el cual invoca un tótem aleatorio. Estos tótems son cuatro. Uno tiene 0/2 (0 puntos de ataque y 2 de vida) con provocar, otro es un 0/2 que al final del turno restaura 1 punto de vida a todos los esbirros al final de turno, el tercero es un 1/1 y el cuarto un 0/2 con +1 punto de hechizos</p>
         
       </div>
     </div>
 
       <div class="one_half" style="text-align: center" >
-        <img src="images/mazos/paladinhp.png" style="width:53%; height:auto"   >
+        <img src="images/mazos/chamanhp.png" style="width:53%; height:auto"   >
       </div>
       </div>
   </main>

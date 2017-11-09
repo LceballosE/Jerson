@@ -62,38 +62,18 @@
     <div class="group">
       <div class="one_half first">
          <div style="background:rgba(0,0,0,0.5);padding: 40px; border-radius: 20px;margin-top: 150px" class="jumbotron">
-        <h6 class="heading font-x2" style="text-align: center"></h6>
+        <h6 class="heading font-x2" style="text-align: center">Entrégate a las sombras</h6>
         <p>El primer orco brujo y seguidor de Sargeras. Fue el que con la ayuda de Medivh y la puerta dimensional llevó a los orcos a Azeroth. Su poder de héroe es "Transfusión de Vida", el cual sacrifica dos puntos de salud para robar una carta.</p>
         
       </div>
     </div>
 
       <div class="one_half" style="text-align: center" >
-        <img src="images/mazos/paladinhp.png" style="width:53%; height:auto"   >
+        <img src="images/mazos/brujohp.png" style="width:53%; height:auto"   >
       </div>
       </div>
   </main>
 </div>
-
-
-  <main class="hoc container clear">
-  
-    <div class="group">
-      <div class="one_half first">
-         <div style="background:rgba(0,0,0,0.5);padding: 40px; border-radius: 20px;margin-top: 150px" class="jumbotron">
-        <h6 class="heading font-x2" style="text-align: center"></h6>
-        <p></p>
-        
-      </div>
-    </div>
-
-      <div class="one_half" style="text-align: center" >
-        <img src="images/mazos/paladinhp.png" style="width:53%; height:auto"   >
-      </div>
-      </div>
-  </main>
-</div>
-
 
 
 <div class="wrapper row3">

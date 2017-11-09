@@ -63,14 +63,14 @@
     <div class="group">
       <div class="one_half first">
          <div style="background:rgba(0,0,0,0.5);padding: 40px; border-radius: 20px;margin-top: 150px" class="jumbotron">
-        <h6 class="heading font-x2" style="text-align: center"></h6>
-        <p></p>
+        <h6 class="heading font-x2" style="text-align: center">Yo te daré caza</h6>
+        <p>Un cazador medio orco medio ogro que ayudó en gran parte a la fundación de Durotar, Fortaleza de la Horda en Kalimdor.37​ Su poder de héroe es el "Disparo firme", que inflige 2 puntos de daño al héroe rival.</p>
         
       </div>
     </div>
 
       <div class="one_half" style="text-align: center" >
-        <img src="images/mazos/paladinhp.png" style="width:53%; height:auto"   >
+        <img src="images/mazos/cazadorhp.png" style="width:53%; height:auto"   >
       </div>
       </div>
   </main>

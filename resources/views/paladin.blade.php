@@ -66,8 +66,8 @@
     <div class="group">
       <div class="one_half first">
          <div style="background:rgba(0,0,0,0.5);padding: 40px; border-radius: 20px;margin-top: 150px" class="jumbotron">
-        <h6 class="heading font-x2" style="text-align: center"></h6>
-        <p>el primer paladín de la historia de Warcraft. Su poder de héroe es "Refuerzo" que invoca a un Recluta Mano de Plata (esbirro 1/1)</p>
+        <h6 class="heading font-x2" style="text-align: center">La justicia exige castigo</h6>
+        <p>El primer paladín de la historia de Warcraft. Su poder de héroe es "Refuerzo" que invoca a un Recluta Mano de Plata (esbirro 1/1)</p>
         
       </div>
     </div>
