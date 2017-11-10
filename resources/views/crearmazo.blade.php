@@ -54,6 +54,7 @@
           </ul>
         </li>
               <li><a href="crearmazo">Crear Maso</a></li>
+                           <li><a href="/estadisticas">Estadísticas</a></li>
 
        
           

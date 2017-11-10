@@ -24,6 +24,7 @@
              <li><a href="/dorsos">dorsos</a></li>
              <li><a href="/heroes">Héroes</a></li>
               <li><a href="/expansiones">Expansiones</a></li>
+                           <li><a href="/estadisticas">Estadísticas</a></li>
 
           </ul>
           </li>

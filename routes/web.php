@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('home');
 });
 Route::get('/crearmazo', 'CartasController@infoCartastodo');
-
+Route::get('/dorsos', 'DorsosController@dorsosfuncion');
 
 Route::get('/paladin', 'CartasController@infoCartas');
 Route::get('/mago','CartasController@infoCartasmago' );
@@ -39,6 +39,10 @@ Route::get('/ungoro', 'CartasController@infoCartasungoro');
 
 Route::get('/descripcionjuego', function () {
     return view('descripcionjuego');
+});
+
+Route::get('/estadisticas', function () {
+    return view('estadisticas');
 });
 
 /*Route::get('/crearmazo', function () {
@@ -67,7 +71,7 @@ Route::get('/expansiones', function () {
 Route::get('/grafica', function () {
     return view('grafica');
 });
-Route::get('/dorsos', 'DorsosController@dorsosfuncion');
+
 
 /*Route::get('/dorsos', 'DorsosController@dorsos');*/
 
