@@ -185,6 +185,19 @@ public function infoCartaskft()
 
 	}
 
+public function getAddMazo(Request $request,$id){
+
+	$carta=Carta::find($id);
+	$mazoViejo=Session::has('mazo') ? Session::get('mazo') : null;
+	$mazo=new Mazo($mazoViejo);
+	$mazo->add($carta,$carta->id);
+
+	$request->Session()->put('mazo',$mazo);
+	dd($request->Session()->);
+
+	return redirect()->route('home');
+
+}
 
 
 }

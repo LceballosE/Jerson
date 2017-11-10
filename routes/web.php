@@ -33,7 +33,8 @@ Route::get('/theoldgods','CartasController@infoCartastheoldgods');
 Route::get('/gadjetzan','CartasController@infoCartasgadjetzan' );
 Route::get('/karazan', 'CartasController@infoCartaskarazan');
 Route::get('/ungoro', 'CartasController@infoCartasungoro');
-Route::get('/kft', 'CartasController@infoCartaskft');
+
+
 
 
 Route::get('/descripcionjuego', function () {
